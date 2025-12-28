@@ -1,1 +1,1 @@
-web: gunicorn backend.wsgi
+gunicorn config.wsgi:application --bind 0.0.0.0:8080
