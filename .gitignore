@@ -1,0 +1,23 @@
+# --- Global ---
+.DS_Store
+.vscode/
+*.log
+
+# --- Python / Django ---
+backend/.env
+*.env
+*.env.*
+**/__pycache__/
+*.pyc
+backend/db.sqlite3
+
+# --- Node / React / Vite ---
+frontend/node_modules/
+frontend/.env
+frontend/.env.*
+frontend/dist/
+frontend/.vite/
+
+# --- Build / Cache ---
+**/dist/
+**/.cache/
