@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://expensetracker-production-93c6.up.railway.app",
+  baseURL: import.meta.env.VITE_API_BASE_URL,
 });
 
 API.interceptors.request.use((req) => {
